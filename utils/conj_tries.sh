@@ -1,0 +1,10 @@
+python verify_conjecture.py --kappa_lb=1        --kappa_rb=5         --kappa_grid_size=50   --dump_results=results-1
+python verify_conjecture.py --kappa_lb=5        --kappa_rb=10        --kappa_grid_size=50   --dump_results=results-2
+python verify_conjecture.py --kappa_lb=10       --kappa_rb=50        --kappa_grid_size=50   --dump_results=results-3
+python verify_conjecture.py --kappa_lb=50       --kappa_rb=100       --kappa_grid_size=50   --dump_results=results-4
+python verify_conjecture.py --kappa_lb=100      --kappa_rb=500       --kappa_grid_size=50   --dump_results=results-5
+python verify_conjecture.py --kappa_lb=500      --kappa_rb=1000      --kappa_grid_size=50   --dump_results=results-6
+python verify_conjecture.py --kappa_lb=1000     --kappa_rb=10000     --kappa_grid_size=150  --dump_results=results-7
+python verify_conjecture.py --kappa_lb=10000    --kappa_rb=100000    --kappa_grid_size=150  --dump_results=results-8
+python verify_conjecture.py --kappa_lb=100000   --kappa_rb=1000000   --kappa_grid_size=200  --dump_results=results-9
+python verify_conjecture.py --kappa_lb=1000000  --kappa_rb=10000000  --kappa_grid_size=200  --dump_results=results-10
